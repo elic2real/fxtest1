@@ -10,6 +10,7 @@ build/
 
 # Simulator outputs
 *.log
+run*.txt
 
 # IDE
 .vscode/
