@@ -79,7 +79,7 @@ def main():
     
     current_pos = simulator.get_position()
     if current_pos:
-        print(f"Open Position: {current_pos['side']} {current_pos['size']} @ {current_pos['price']}")
+        print(f"Open Position: {current_pos['side']} {current_pos['size']} @ {current_pos['price']:.4f}")
     else:
         print("Open Position: None")
     
